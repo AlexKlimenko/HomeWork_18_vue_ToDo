@@ -23,7 +23,7 @@
                     </label>
                   </div>
                   <button
-                    class="btn btn-sm btn-primary"
+                    class="btn btn-sm btn-primary ml-auto"
                     @click="edit(todo)"
                     v-show="!isBeingEdited"
                   >
